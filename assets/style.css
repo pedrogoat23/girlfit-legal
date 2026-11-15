@@ -1,0 +1,327 @@
+/* GirlFit: páginas legais. Cores do app (theme/brand). Sem fontes nem scripts externos. */
+:root {
+	--bg: #fff6f8;
+	--card: #ffffff;
+	--ink: #2a1f26;
+	--muted: #6b5862;
+	--line: #ffd1dc;
+	--soft: #ffe8ee;
+	--pink: #ef4f7e;
+	--pink-strong: #b82c57;
+	--radius: 18px;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #140f13;
+		--card: #1e171c;
+		--ink: #f7eef2;
+		--muted: #c2adb7;
+		--line: #3a2531;
+		--soft: #2e1c26;
+		--pink: #ff8fb0;
+		--pink-strong: #ff8fb0;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
+body {
+	margin: 0;
+	background: var(--bg);
+	color: var(--ink);
+	font: 17px/1.6 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial,
+		sans-serif;
+}
+
+a {
+	color: var(--pink-strong);
+	text-underline-offset: 3px;
+}
+
+.top {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	background: color-mix(in srgb, var(--bg) 88%, transparent);
+	-webkit-backdrop-filter: blur(12px);
+	backdrop-filter: blur(12px);
+	border-bottom: 1px solid var(--line);
+}
+
+.top-inner {
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 10px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 12px;
+}
+
+.brand {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: var(--ink);
+	text-decoration: none;
+	font-weight: 800;
+	font-size: 19px;
+	letter-spacing: -0.01em;
+}
+
+.brand img {
+	width: 34px;
+	height: 34px;
+	border-radius: 9px;
+}
+
+nav {
+	display: flex;
+	gap: 6px;
+}
+
+nav a {
+	padding: 7px 12px;
+	border-radius: 999px;
+	font-size: 15px;
+	font-weight: 600;
+	text-decoration: none;
+	color: var(--muted);
+}
+
+nav a[aria-current="page"] {
+	background: var(--soft);
+	color: var(--pink-strong);
+}
+
+main {
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 28px 20px 48px;
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 1.15;
+	letter-spacing: -0.02em;
+	margin: 8px 0 6px;
+}
+
+h2 {
+	font-size: 23px;
+	line-height: 1.25;
+	margin: 40px 0 10px;
+	padding-top: 8px;
+	scroll-margin-top: 72px;
+}
+
+h3 {
+	font-size: 19px;
+	margin: 26px 0 8px;
+	scroll-margin-top: 72px;
+}
+
+p,
+li {
+	overflow-wrap: anywhere;
+}
+
+ul {
+	padding-left: 22px;
+}
+
+li {
+	margin: 6px 0;
+}
+
+li::marker {
+	color: var(--pink);
+}
+
+strong {
+	font-weight: 700;
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid var(--line);
+	margin: 32px 0 0;
+}
+
+.updated {
+	color: var(--muted);
+	font-size: 15px;
+}
+
+.toc {
+	background: var(--card);
+	border: 1px solid var(--line);
+	border-radius: var(--radius);
+	padding: 14px 18px;
+	margin: 22px 0 8px;
+}
+
+.toc summary {
+	cursor: pointer;
+	font-weight: 700;
+	color: var(--pink-strong);
+}
+
+.toc ol {
+	margin: 10px 0 2px;
+	padding-left: 20px;
+}
+
+.toc li {
+	margin: 4px 0;
+}
+
+table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	background: var(--card);
+	border: 1px solid var(--line);
+	border-radius: var(--radius);
+	overflow: hidden;
+	margin: 14px 0;
+	font-size: 15.5px;
+}
+
+th,
+td {
+	text-align: left;
+	vertical-align: top;
+	padding: 10px 12px;
+	border-bottom: 1px solid var(--line);
+}
+
+th {
+	background: var(--soft);
+	font-weight: 700;
+}
+
+tr:last-child td {
+	border-bottom: 0;
+}
+
+/* No iPhone, cada linha da tabela vira um cartão (nada de rolar pro lado). */
+@media (max-width: 640px) {
+	body {
+		font-size: 16.5px;
+	}
+
+	h1 {
+		font-size: 28px;
+	}
+
+	nav a {
+		padding: 7px 9px;
+		font-size: 14px;
+	}
+
+	.brand span {
+		display: none;
+	}
+
+	table,
+	tbody,
+	tr,
+	td {
+		display: block;
+		width: 100%;
+	}
+
+	table {
+		border: 0;
+		background: none;
+	}
+
+	thead {
+		display: none;
+	}
+
+	tr {
+		background: var(--card);
+		border: 1px solid var(--line);
+		border-radius: var(--radius);
+		margin: 0 0 12px;
+		padding: 4px 0;
+	}
+
+	td {
+		border: 0;
+		padding: 6px 14px;
+	}
+
+	td::before {
+		content: attr(data-label);
+		display: block;
+		font-size: 12.5px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.04em;
+		color: var(--pink-strong);
+	}
+}
+
+.hero {
+	text-align: center;
+	padding: 24px 0 8px;
+}
+
+.hero img {
+	width: 96px;
+	height: 96px;
+	border-radius: 24px;
+	box-shadow: 0 12px 32px rgba(239, 79, 126, 0.28);
+}
+
+.hero p {
+	color: var(--muted);
+	max-width: 460px;
+	margin: 8px auto 0;
+}
+
+.cards {
+	display: grid;
+	gap: 14px;
+	margin: 28px 0;
+}
+
+.card {
+	display: block;
+	background: var(--card);
+	border: 1px solid var(--line);
+	border-radius: var(--radius);
+	padding: 18px 20px;
+	text-decoration: none;
+	color: var(--ink);
+}
+
+.card strong {
+	display: block;
+	font-size: 19px;
+	color: var(--pink-strong);
+}
+
+.card span {
+	color: var(--muted);
+	font-size: 15.5px;
+}
+
+footer {
+	max-width: 760px;
+	margin: 0 auto;
+	padding: 24px 20px 40px;
+	border-top: 1px solid var(--line);
+	color: var(--muted);
+	font-size: 14.5px;
+}
