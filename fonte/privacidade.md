@@ -107,7 +107,7 @@ Todos os dias o app guarda uma cópia das suas respostas que valeram naquele dia
 | Identificador do app no aparelho (IDFV), modelo do iPhone, idioma, versão do app | Contar instalações, entender o uso e corrigir problemas | Legítimo interesse (art. 7º, IX) |
 | Telas do questionário que você passou, se viu a tela de assinatura, se assinou | Entender onde as pessoas desistem e melhorar o app | Legítimo interesse (art. 7º, IX) |
 | Origem da instalação (o anúncio ou link em que você tocou) | Saber quais anúncios funcionam | Legítimo interesse (art. 7º, IX) |
-| Identificador de publicidade da Apple (IDFA) | Ligar a sua instalação ao anúncio com mais precisão | **Só com a sua permissão** na pergunta da Apple "Permitir rastreamento" (art. 7º, I) |
+| Identificador de publicidade da Apple (IDFA) e o seu e-mail (enviado ao Paywallo de forma que vira código antes de chegar à Meta e ao TikTok) | Ligar a sua instalação e a sua compra ao anúncio com mais precisão | **Só com a sua permissão** na pergunta da Apple "Permitir rastreamento" (art. 7º, I) |
 
 Veja mais na seção 6.
 
@@ -147,8 +147,8 @@ Não vendemos seus dados. Compartilhamos só o necessário com estes serviços, 
 |---|---|---|---|
 | **Supabase** | Servidor do app: login e banco de dados | Conta, respostas, dados de saúde, treinos, refeições, peso, foto de perfil (seção 3) | **Estados Unidos** (Virgínia do Norte) |
 | **Superwall** | Mostra a tela de assinatura | Identificador da conta, nome, e-mail, data de cadastro, código de indicação, dados do aparelho, ações na tela de assinatura e compras | Estados Unidos |
-| **Paywallo** (Virex-Tech, empresa brasileira) | Mede instalações, o funil do app e os anúncios | Identificador da conta, nome, e-mail, data de cadastro, código de indicação, dados do aparelho (seção 3.6), etapas do questionário (sem as respostas), tela de assinatura, compras e origem da instalação | Servidores em nuvem. O país será informado aqui assim que confirmado com o fornecedor. |
-| **Meta (Facebook/Instagram) e TikTok** | Medem os anúncios | Pelo Paywallo: aviso de instalação e de compra, com dados de identificação **criptografados** (como o e-mail transformado em código). O IDFA vai **só se você permitir o rastreamento**. | Estados Unidos e outros países |
+| **Paywallo** (Virex-Tech, empresa brasileira) | Mede instalações, o funil do app e os anúncios | Identificador da conta, nome, e-mail (só se você permitir o rastreamento), data de cadastro, código de indicação, dados do aparelho (seção 3.6), etapas do questionário (sem as respostas), tela de assinatura, compras e origem da instalação | Servidores em nuvem. O país será informado aqui assim que confirmado com o fornecedor. |
+| **Meta (Facebook/Instagram) e TikTok** | Medem os anúncios | Pelo Paywallo: aviso de instalação e de compra. O IDFA e o seu e-mail (transformado em código) vão **só se você permitir o rastreamento**. | Estados Unidos e outros países |
 | **Apple** | Cobra a assinatura e mede anúncios sem identificar a pessoa (SKAdNetwork) | Dados da compra (a Apple já tem os seus dados de pagamento) | Estados Unidos e outros países |
 | **Open Food Facts** | Base pública de alimentos | Só o número do código de barras | França |
 
@@ -178,10 +178,10 @@ Escolhemos serviços conhecidos, que usam conexão criptografada e controles de 
 O GirlFit faz anúncios em redes como Instagram, Facebook e TikTok. Para saber quais anúncios funcionam, usamos o **Paywallo**.
 
 - **O que é medido:** se você instalou o app depois de tocar num anúncio e se você assinou.
-- **Como:** o Paywallo avisa a Meta e o TikTok pelo servidor dele, mandando os dados de identificação **criptografados**. Eles só conseguem ligar esses dados a quem já tem conta com eles.
-- **Pergunta da Apple:** o app vai mostrar a pergunta **"Permitir que o GirlFit rastreie sua atividade em apps e sites de outras empresas?"**.
-  - Se você **permitir**, o identificador de publicidade (IDFA) é usado para ligar a instalação ao anúncio.
-  - Se você **não permitir**, o IDFA não é usado. A medição continua só de forma limitada, com o identificador do app (IDFV) e a medição sem identificação da Apple (SKAdNetwork). **Nada no app muda para você.**
+- **Como:** o Paywallo avisa a Meta e o TikTok pelo servidor dele. **Só se você permitir o rastreamento**, ele manda junto o IDFA e o seu e-mail transformado em código, que eles só conseguem ligar a quem já tem conta com eles.
+- **Pergunta da Apple:** logo depois do questionário inicial, antes da tela de assinatura, o app mostra uma vez a pergunta **"Permitir que o GirlFit rastreie sua atividade em apps e sites de outras empresas?"**, com a explicação: "Usamos para saber de qual anúncio do Instagram, Facebook ou TikTok você veio. Seus dados de saúde nunca são usados para isso."
+  - Se você **permitir**, o identificador de publicidade (IDFA) e o seu e-mail (em código) são usados para ligar a instalação e a compra ao anúncio.
+  - Se você **não permitir**, o IDFA e o seu e-mail **não** são enviados para medir anúncios. A medição continua só de forma limitada, com o identificador do app (IDFV) e a medição sem identificação da Apple (SKAdNetwork). **Nada no app muda para você.**
 - Você pode mudar a resposta quando quiser em **Ajustes do iPhone › Privacidade e Segurança › Rastreamento**.
 
 **Dados de saúde nunca são usados para anúncios.**
