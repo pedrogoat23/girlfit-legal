@@ -1,6 +1,6 @@
 # Política de Privacidade do GirlFit
 
-**Última atualização:** 15 de novembro de 2026
+**Última atualização:** 20 de novembro de 2026
 
 Esta política explica, em português simples, quais dados o app **GirlFit** usa, para quê, com quem eles são compartilhados e como você controla tudo isso. Ela segue a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018).
 
@@ -31,7 +31,7 @@ Esse e-mail é o canal oficial para você exercer seus direitos e tirar dúvidas
 - Parte dos dados fica em servidores **nos Estados Unidos**.
 - Se você permitir, usamos dados para **medir de qual anúncio você veio** (Meta e TikTok), por meio do Paywallo.
 - Você pode **corrigir** seus dados e **excluir a sua conta dentro do app**, em **Perfil › Excluir conta**.
-- O GirlFit é **só para maiores de 18 anos**.
+- O GirlFit pode ser usado a partir dos **10 anos**. **Menores de 18 anos não recebem meta de peso nem de calorias** (veja a seção 7).
 
 ---
 
@@ -74,6 +74,7 @@ Alguns dados são **dados pessoais sensíveis**, porque dizem respeito à sua sa
 
 | Dado | Para quê |
 |---|---|
+| Idade | Calcular necessidades de energia e adaptar o plano: menores de 18 anos não recebem meta de peso nem de calorias, e de 10 a 14 anos o treino é mais leve |
 | Altura, peso atual e peso desejado | Calcular necessidades de energia e metas seguras |
 | Fase do ciclo: menstruada, **grávida, amamentando**, pós-parto | Adaptar treino e dieta com segurança (por exemplo, sem déficit de calorias na gravidez e na amamentação) |
 | **Dores** que você marca em exercícios e sintomas do dia | Trocar exercícios e evitar o que causa dor |
@@ -188,13 +189,15 @@ O GirlFit faz anúncios em redes como Instagram, Facebook e TikTok. Para saber q
 
 ---
 
-## 7. Somente para maiores de 18 anos
+## 7. Menores de 18 anos
 
-- O GirlFit é destinado **somente a pessoas com 18 anos ou mais**.
-- **Ao aceitar os Termos de Uso, você declara que tem 18 anos ou mais.**
-- O app **não pergunta a sua idade** e **não confirma a idade** de quem usa. Confiamos na sua declaração. Nos cálculos de calorias, o app usa uma **idade padrão de 28 anos**.
-- **Não coletamos de propósito dados de menores de 18 anos.** Se soubermos que uma pessoa menor de 18 anos criou uma conta, **apagaremos a conta e os dados**.
-- Se você é pai, mãe ou responsável e acha que um menor de 18 anos está usando o GirlFit, escreva para **girlfitapp@gmail.com**. Apagaremos os dados assim que confirmarmos o pedido.
+- O GirlFit pode ser usado a partir dos **10 anos**. O app pergunta a idade no questionário inicial.
+- Os dados de quem tem menos de 18 anos são usados **no melhor interesse de quem usa**, como pede a LGPD (art. 14), e **só para montar e acompanhar o plano**:
+  - o app **não monta meta de peso nem de calorias**: o plano fica com treino e alimentação equilibrada;
+  - de **10 a 14 anos**, o treino é **mais leve** (carga moderada, sem barra livre pesada e sem exercícios de técnica avançada).
+- Os **dados de saúde** de menores, como os de qualquer pessoa, **nunca são usados para anúncios**.
+- Recomendamos que menores de 18 anos usem o app com o **conhecimento do pai, mãe ou responsável**.
+- Se você é pai, mãe ou responsável, pode pedir para **ver, corrigir ou apagar** os dados de quem usa o app escrevendo para **girlfitapp@gmail.com**. Atendemos assim que confirmarmos o pedido.
 
 ---
 

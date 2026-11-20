@@ -1,6 +1,6 @@
 # Termos de Uso do GirlFit
 
-**Última atualização:** 15 de novembro de 2026
+**Última atualização:** 20 de novembro de 2026
 
 Estes termos são as regras de uso do app **GirlFit**. Ao criar a conta ou assinar, você concorda com eles e com a nossa [Política de Privacidade](https://pedrogoat23.github.io/girlfit-legal/privacidade/). Se não concordar, não use o app.
 
@@ -29,7 +29,7 @@ O GirlFit funciona **só por assinatura**. Não existe versão gratuita.
   - toma remédios que afetam o peso, o apetite ou o coração.
 - **Pare o exercício na hora** se sentir dor forte, tontura, falta de ar fora do normal, dor no peito ou qualquer mal-estar. Procure atendimento se precisar.
 - **Calorias, macronutrientes e metas são estimativas.** Elas usam fórmulas para a média das pessoas e podem não servir para o seu caso.
-- **O app não pergunta a sua idade** e usa uma **idade padrão de 28 anos** nos cálculos. Por isso, as estimativas podem ser menos precisas para você, principalmente se a sua idade estiver longe dos 28 anos.
+- O app pergunta a sua **idade** e usa ela nos cálculos. **Menores de 18 anos não recebem meta de peso nem de calorias:** o plano fica com treino e alimentação equilibrada. De **10 a 14 anos**, o treino é **mais leve** (carga moderada, sem barra livre pesada e sem exercícios de técnica avançada).
 - O app tem **travas de segurança**: não corta calorias na gravidez e na amamentação, não monta dieta automática no pós-parto e não sugere metas de peso abaixo do saudável. **Essas travas não substituem um profissional.**
 - **Transparência:** os treinos, as dietas e as respostas da Britney foram preparados com ajuda de inteligência artificial e revisados pelo responsável do app, mas **ainda não foram revisados por educador físico nem por nutricionista**. Use com bom senso e procure um profissional quando tiver dúvida.
 - Você confirma que está **apta a fazer atividade física e mudar a alimentação** e que as informações que deu no questionário são **verdadeiras**. Respostas erradas (como peso, altura, gravidez ou dores) fazem o plano ficar errado e podem trazer risco.
@@ -49,8 +49,8 @@ O GirlFit funciona **só por assinatura**. Não existe versão gratuita.
 
 ## 4. Sua conta
 
-- O GirlFit é **somente para maiores de 18 anos**. **Ao aceitar estes termos, você declara que tem 18 anos ou mais.**
-- Se soubermos que a conta é de uma pessoa menor de 18 anos, podemos **encerrar a conta e apagar os dados**. Veja a seção "Somente para maiores de 18 anos" da Política de Privacidade.
+- O GirlFit pode ser usado a partir dos **10 anos**.
+- **Se você tem menos de 18 anos**, use o app com o conhecimento do seu pai, mãe ou responsável. Para a sua segurança, o app **não monta meta de peso nem de calorias** para você. Se o assunto for peso, converse com um responsável e com um profissional de saúde. Veja a seção "Menores de 18 anos" da Política de Privacidade.
 - Cada conta é **pessoal**. Não compartilhe nem venda o seu acesso.
 - Mantenha a sua senha em segredo. Se achar que alguém usou a sua conta, troque a senha e nos avise.
 - Você pode **excluir a sua conta** a qualquer momento em **Perfil › Excluir conta**. Isso **não cancela a assinatura** (veja a seção 5.4).
